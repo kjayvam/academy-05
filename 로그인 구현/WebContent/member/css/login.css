@@ -1,0 +1,162 @@
+/* 초기화 */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    z-index: 0;
+    font: inherit;
+    /* 글자 부모요소 상속 */
+    vertical-align: baseline;
+    /* 글자 아래 라인에 맞춤 */
+    font-size: 100%;
+    /* 16px */
+    line-height: 1;
+    /* 세로 높이의 위쪽 기준 */
+    text-align: left;
+    /* 가로 너비의 왼쪽 기준 */
+    list-style: none;
+    /* 목록을 없애기 */
+    quotes: none;
+    /* 인용문 없애기 */
+    border-collapse: collapse;
+    /* 표의 테두리와 셀의 사이 간격을 없앰 */
+    border-spacing: 0;
+    /* 표의 테두리와 셀 사이 간격을 0으로 */
+}
+
+/***************/
+/* 헤더 - 로고 */
+/***************/
+
+/* 헤더 공간 만들기 */
+#header {
+    padding: 100px 0px 0px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* 로고 스타일 */
+#header a {
+    text-decoration: none;
+    color: #FE750E;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/******************/
+/* 콘텐츠 - 로그인 */
+/******************/
+
+/* 콘텐츠 공간 만들기 */
+#container {
+    width: 100%;
+    height: 250px;
+}
+
+/* 로그인 공간 만들기 */
+#contents {
+    width: 350px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 로그인 입력창 스타일 */
+#login_text {
+    width: 300px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #FE750E;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin-bottom: 1px;
+}
+
+/* 로그인 버튼 스타일 */
+#login_button {
+    margin-top: 30px;
+    background-color: #FE750E;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    width: 342px;
+    height: 63px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/******************/
+/* 특수인증 - 선택 */
+/******************/
+
+/* 선택 공간 만들기 */
+#sign {
+    width: 100%;
+    height: 300px;
+}
+
+/* 테이블 중앙 정렬 */
+#sign form {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* 글자 스타일 */
+#sign input[type="button"] {
+    text-decoration: none;
+    padding: 20px;
+    color: #222;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/********/
+/* 푸터 */
+/********/
+
+/* 푸터 공간 만들기 */
+#footer {
+    border-top-color: #FE750E;
+    border-top-style: solid;
+    border-top-width: thin;
+    width: 100%;
+}
+
+/* 목록 정렬 */
+#bottomMenu ul {
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* 목록 스타일 */
+#bottomMenu li {
+    display: inline-block;
+    width: 120px;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 10px;
+
+}
+
+/* 목록 링크 스타일 */
+#bottomMenu a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+/* 목록 나누기 */
+#bottomMenu span {
+    border-left: 2px solid #aaa;
+
+}
+
+/* 회사 주소 공간 만들기 */
+#company {
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+    padding-top: 10px;
+}
